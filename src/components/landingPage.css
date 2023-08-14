@@ -207,6 +207,12 @@ input[type='checkbox'] {
     display: none;
 }
 
+@media (min-width: 2000px) {
+    .landing-page-content {
+        width: 60%;
+    }
+}
+
 /* When macfinder image gets too small */
 /* ----------------------------------- */
 @media (max-width: 1407px) {
