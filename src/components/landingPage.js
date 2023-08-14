@@ -45,19 +45,12 @@ export const LandingPage = (props) => {
             { isDialogOpen && (
                     <dialog open>
                         <h1>thank you!</h1>
-                        <p>we'll reach out to you soon!   </p>
+                        <p>We'll be launching soon!</p>
                         <div className="img-container">
                             <img src="/theodyssey_366x100.png" alt="gakuyen" />
                         </div>
                     </dialog>
                 ) }
-                {/* <dialog open>
-                        <h1>thank you!</h1>
-                        <p>we'll reach out to you soon!   </p>
-                        <div className="img-container">
-                            <img src="/theodyssey_366x100.png" alt="gakuyen" />
-                        </div>
-                </dialog> */}
                 <section className="two-column">
                     <div className="left-column">
                         <div className="main-logo">
