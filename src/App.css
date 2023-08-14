@@ -307,6 +307,14 @@ input[type='checkbox'] {
     display: block;
   }
 
+  .main-logo .logo {
+    height: 3rem;
+  }
+
+  .main-logo .sub-logo {
+    width: 8rem;
+  }
+
   /* .no-mobile {
     display: none;
   } */
@@ -327,6 +335,7 @@ input[type='checkbox'] {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    row-gap: 0.75rem;
   }
 
   .landing-page-content {
@@ -439,8 +448,8 @@ input[type='checkbox'] {
     margin-top: 15rem;
   } */
 
-  /* .App {
-    padding-top: 10rem;
-  } */
+  .App {
+    padding-top: 2rem;
+  }
   
 }
