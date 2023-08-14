@@ -73,6 +73,14 @@ form {
     width: 100%;
 }
 
+form label {
+    display: flex;
+}
+
+form label svg {
+    margin-right: 1rem;
+}
+
 form .text-inputs {
     display: flex;
     justify-content: space-between;
@@ -179,7 +187,7 @@ form .bottom-form-section {
 input[type='checkbox'] {
     height: 2rem;
     width: 2rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .accept-terms {

@@ -2,6 +2,7 @@ import React from "react";
 import './landingPage.css'
 import { db } from "../config/firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
+import { BsArrowLeft } from "react-icons/bs";
 
 
 export const LandingPage = (props) => {
@@ -113,6 +114,7 @@ export const LandingPage = (props) => {
                                         onChange={(e) => setAcceptTerms(e.target.checked)}
                                         />
                                         <label>
+                                            <BsArrowLeft />
                                             Keep me in
                                             the loop
                                         </label>
