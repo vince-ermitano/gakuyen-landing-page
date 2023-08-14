@@ -338,6 +338,10 @@ input[type='checkbox'] {
     align-items: flex-start;
   }
 
+  form .bottom-form-section > .accept-terms {
+    width: 100%;
+  }
+
   form .bottom-form-section > * {
     margin-bottom: 1rem;
   }
@@ -436,6 +440,5 @@ input[type='checkbox'] {
   .App {
     padding-top: 10rem;
   }
-
   
 }
