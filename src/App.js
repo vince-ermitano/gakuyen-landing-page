@@ -71,9 +71,9 @@ function App() {
                         <img src="/teachingsovertime.png" alt="gakuyen" />
                     </div>
 
-                    {/* <div className="teachings-overtime-text mobile">
+                    <div className="teachings-overtime-text mobile">
                         <pre>(Teachings           Over          Time)          (Instructional       Interlude)           (Creative           Refinement)</pre>
-                    </div> */}
+                    </div>
 
                 </section>
             </div>
