@@ -17,7 +17,7 @@ export const LandingPage = (props) => {
 
         e.preventDefault();
         if (!acceptTerms) {
-            alert("You must accept the terms and conditions");
+            alert("Check 'Keep me in the loop'");
             return;
         }
 
@@ -113,8 +113,8 @@ export const LandingPage = (props) => {
                                         onChange={(e) => setAcceptTerms(e.target.checked)}
                                         />
                                         <label>
-                                            I accept the terms &<br />{" "}
-                                            conditions
+                                            Keep me in<br />{" "}
+                                            the loop
                                         </label>
                                     </div>
                                     <button type="submit">SUBMIT</button>
