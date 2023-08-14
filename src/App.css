@@ -8,6 +8,20 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.background {
+  z-index: 9;
+  display: none;
+  position: fixed;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  background-color: #999;
+}
+
+.background.open {
+  display: block;
+}
+
 @font-face {
   font-family: 'Foundation Sans';
   src: url(./fonts/FoundationSans-Bold.otf) format('opentype');
