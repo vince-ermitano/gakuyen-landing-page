@@ -299,7 +299,7 @@ input[type='checkbox'] {
   } */
 
   .two-column .right-column .img-container {
-    width: 80%;
+    width: 100%;
   }
 
   .two-column .right-column .img-container img {
