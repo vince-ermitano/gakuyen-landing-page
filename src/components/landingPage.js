@@ -113,7 +113,7 @@ export const LandingPage = (props) => {
                                         onChange={(e) => setAcceptTerms(e.target.checked)}
                                         />
                                         <label>
-                                            Keep me in<br />{" "}
+                                            Keep me in
                                             the loop
                                         </label>
                                     </div>
