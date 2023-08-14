@@ -97,7 +97,6 @@ export const LandingPage = (props) => {
                                     <input
                                         type="text"
                                         placeholder="Enter Name Here*"
-                                        autoFocus
                                         required
                                         value={name}
                                         onChange={(e) =>
