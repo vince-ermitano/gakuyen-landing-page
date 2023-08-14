@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +40,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.landing-page-content {
+  width: 75%;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.two-column .left-column {
+  text-align: left;
+}
+
+/* .two-column .right-column {
+  place-self: right;
+} */
+
+.two-column .right-column .img-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  /* make child img cover the container */
+
+}
+
+.two-column .right-column .img-container img {
+  width: 100%;
+}
+
+#teachings-overtime {
+  width: 100%;
+  text-align: end;
+}
+
+#teachings-overtime img {
+  width: 100%;
 }

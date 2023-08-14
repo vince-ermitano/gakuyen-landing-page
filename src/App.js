@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="landing-page-content">
+                <section className="two-column">
+                    <div className="left-column">
+                        <div className="img-container">
+                            <img src="/theodyssey_366x100.png" alt="gakuyen" />
+                        </div>
+                        <div className="img-container">
+                            <img
+                                src="/onlineeducationportal.png"
+                                alt="gakuyen"
+                            />
+                        </div>
+                        <div className="content-headings">
+                            <span>Creative Masterclass</span>
+                            <span>.</span>
+                            <span>Editing Assets</span>
+                            <span>.</span>
+                            <span>Freelance Tools</span>
+                        </div>
+                        <span>Launching imminently...</span>
+                        <span>SIGN UP to be the first to know :)</span>
+                        <form>
+                            <input type="text" placeholder="Enter Name Here*" />
+                            <input
+                                type="email"
+                                placeholder="Enter Email Here..."
+                            />
+                            <div className="accept-terms">
+                                <input type="checkbox" />
+                                <label>I accept the terms and conditions</label>
+                            </div>
+                            <button type="submit">SUBMIT</button>
+                        </form>
+                    </div>
+                    <div className="right-column">
+                        <div className="img-container">
+                            <img src="/macfinder.png" alt="gakuyen" />
+                        </div>
+                    </div>
+                </section>
+                <div className="img-container" id="teachings-overtime">
+                    <img src="/teachingsovertime.png" alt="gakuyen" />
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
