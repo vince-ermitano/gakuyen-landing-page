@@ -251,7 +251,7 @@ input[type='checkbox'] {
   }
 
   .two-column .right-column .img-container {
-    width: 65%;
+    width: 50%;
   }
 
   .two-column .right-column .img-container img {
@@ -439,8 +439,8 @@ input[type='checkbox'] {
     margin-top: 15rem;
   } */
 
-  .App {
+  /* .App {
     padding-top: 10rem;
-  }
+  } */
   
 }
