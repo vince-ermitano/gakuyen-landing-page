@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 95vw;
-  height: 95vh;
+  width: 100vw;
+  height: 100vh;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -319,6 +319,7 @@ input[type='checkbox'] {
   form .bottom-form-section {
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
 
   form .bottom-form-section > .accept-terms {
@@ -425,5 +426,6 @@ input[type='checkbox'] {
   .App {
     padding-top: 2rem;
   }
+
   
 }
